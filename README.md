@@ -17,8 +17,12 @@ This project demonstrates how to use TestContainers to set up and run Docker con
 3. Run the `TestContainersExample` class by running
 
 ```
+gradle wrapper
 ./gradlew run
 ```
+
+This should start a couple of containers. Verify in an available terminal window by running `docker ps`
+
 
 ## Inspecting the Containers
 
