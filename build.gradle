@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testcontainers:testcontainers:1.19.3'
+    implementation 'org.slf4j:slf4j-simple:2.0.5'
+}
+
+application {
+    mainClass = 'TestContainersExample'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
+}
