@@ -2,6 +2,8 @@
 
 This project demonstrates how to use TestContainers to set up and run Docker containers for testing purposes.
 
+
+
 ## Prerequisites
 
 - Docker installed and running on your machine
@@ -12,7 +14,11 @@ This project demonstrates how to use TestContainers to set up and run Docker con
 
 1. Clone this repository
 2. Navigate to the project directory
-3. Run the `TestContainersExample` class
+3. Run the `TestContainersExample` class by running
+
+```
+./gradlew run
+```
 
 ## Inspecting the Containers
 
